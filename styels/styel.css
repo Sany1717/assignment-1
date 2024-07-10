@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
   }
-}
+
 .btn {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -58,7 +58,7 @@
     font-weight: 800;
     line-height: 68px;
   }
-  #heroSection {
+  #SectionDiv {
     width: 100%;
     min-height: 650px;
     background: linear-gradient(
@@ -66,21 +66,22 @@
         rgba(247, 245, 245, 0.671) 19.5%,
         rgba(255, 255, 255, 0.479) 100%
       ),
-      url(assets/Hero-bg.png);
+      url(Hero-bg.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     border-top: 3px dashed rgb(247, 245, 245);
     border-bottom: 3px dashed rgb(247, 245, 245);
     padding: 26px 0px;
   }
-  .herodiv {
+  .heroDiv {
     text-align: center;
   }
 
   .button {
-    background: rgb(13, 19, 33);
+     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+    border: 10px 20px;
   }
   .Changediv {
     display: flex;
@@ -144,6 +145,17 @@
   }
   .currentTargetdivtext img {
     margin-bottom: 20px;
+  }
+  .currentTargetdivtext button {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--btnBgColor);
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: var(--mainfamily);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
   }
   #Section {
     width: 100%;
