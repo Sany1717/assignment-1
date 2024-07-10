@@ -112,7 +112,6 @@
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
 }
-/* Inspiration section */
 .Inspirationvideodiv {
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
@@ -122,7 +121,6 @@
 .Inspirationvideo {
   border-radius: 16px;
 }
-/* currentTarget_div */
 .currentTargetdiv {
   display: flex;
   align-items: center;
